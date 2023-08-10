@@ -1,0 +1,31 @@
+/*-------Calculator Styles-------*/
+
+body {
+ background-color: #242424;
+}
+
+.containerLogic {
+ margin: auto;
+ width: 100%;
+ height: 220px;
+ border: 1px solid white; 
+ color: #FFFFFF;
+ font-size: 48px;
+ font-weight: 800;
+ display: flex;
+ justify-content: end;
+ align-items: end;
+
+}
+
+.bnt_calculator {
+    background-color: #3C3C3C;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin: 0.1em;
+    font-size: 20px;
+    width: 90px;
+    height: 60px;
+    
+}
