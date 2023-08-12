@@ -1,7 +1,7 @@
 /*-------Calculator Styles-------*/
 
 body {
- background-color: #242424;
+ background-color: #1e1e1e;
 }
 
 .containerLogic {
@@ -26,13 +26,29 @@ body {
     margin: 0.1em;
     font-size: 20px;
     max-width: 700px;
-    width: 90px;
+    width: 120px;
     height: 60px;
+    cursor: pointer;
     
 }
 
+.btn_num {
+
+}
+
+.btn_num:hover {
+background-color: #343436;
+}
+
+
 .btn_signs {
-    background-color: #343434;
+    background-color: #343436;
+    transition: background-color 0.3s ease;
+    
+}
+
+.btn_signs:hover {
+ background-color: #3C3C3C;
 }
 
 .btn_result {
